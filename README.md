@@ -3,7 +3,7 @@ Creates watermark in pdf and makes protection from editing.
 
 ## Install 
 1. apt-get install pdftk python3 python3-pip
-2. pip3 install python3-magic pypdf2 reportlab
+2. pip3 install python-magic pypdf2 reportlab
 
 ## Use
 python3 ./pdf-watermark.py -w 'File owner Ilya Khramtsov'
