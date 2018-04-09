@@ -20,5 +20,3 @@ python3 ./pdf-watermark.py -w 'File owner Ilya Khramtsov'
 - PREFIX = 'my'
 - SECURE_NAME = 'TK_'  # Имя файла после установки пароля
 - OWNER_PASS = '333'  # Пароль на редактирование
-
-test ssh
