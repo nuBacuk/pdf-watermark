@@ -1,0 +1,3 @@
+python-magic==0.4.15
+PyPDF2==1.26.0
+reportlab==3.4.0
