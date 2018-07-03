@@ -1,4 +1,4 @@
-# pdf-watermark
+# pdf-watermark  [![Build Status](https://travis-ci.com/nuBacuk/pdf-watermark.svg?branch=master)](https://travis-ci.com/nuBacuk/pdf-watermark)
 Creates watermark in pdf and makes protection from editing.
 
 ## Install 
