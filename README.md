@@ -3,10 +3,10 @@ Creates watermark in pdf and makes protection from editing.
 
 ## Install 
 1. apt-get install pdftk python3 python3-pip
-2. pip3 install python-magic pypdf2 reportlab
+2. pip3 install -r requirement.txt
 
 ## Use
-python3 ./pdf-watermark.py -w 'File owner Ilya Khramtsov'
+python3 ./pdf-watermark.py -w 'File owner Ilya Khramtsov' -i test.pdf
 
 **-i If the file is not specified, will deliver the watermarks to all pda files in the current directory.**
 
