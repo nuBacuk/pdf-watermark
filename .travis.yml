@@ -7,7 +7,6 @@ before_install:
   - sudo apt-get install -y pdftk
 install:
   - pip install -r requirement.txt
-  - pip install .
 # command to run tests
 script: 
-  - python3 ./pdf-watermark.py -w 'File owner Ilya Khramtsov'
+  - python3 ./pdf-watermark.py -w 'File owner Ilya Khramtsov' -i Pie_aikataulu vko 25_2018.pdf
