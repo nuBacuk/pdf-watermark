@@ -3,7 +3,8 @@ python:
   - "3.4"
   - "3.5"
   - "3.6"
-# command to install dependencies
+before_install:
+  - sudo apt-get install -y pdftk
 install:
   - pip install -r requirement.txt
   - pip install .
