@@ -9,4 +9,4 @@ install:
   - pip install -r requirement.txt
 # command to run tests
 script: 
-  - python3 ./pdf-watermark.py -w 'File owner Ilya Khramtsov' -i Pie_aikataulu vko 25_2018.pdf
+  - python3 pdf-watermark.py -w 'File owner Ilya Khramtsov' -i test.pdf
